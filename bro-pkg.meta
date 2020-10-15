@@ -1,4 +1,0 @@
-[package]
-description = Identify bursty connections (large and fast)
-tags = conn, burst
-script_dir = scripts

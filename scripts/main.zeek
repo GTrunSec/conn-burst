@@ -36,7 +36,7 @@ redef record connection += {
 	clburst_hit: bool &default=F;
 };
 
-event bro_init()
+event zeek_init()
 	{
 	size_threshold_in_bytes = size_threshold * 1024 * 1024;
 	}

@@ -29,7 +29,7 @@ redef record connection += {
 	conn_burst: ConnBurst::Info &optional;
 };
 
-event bro_init() &priority=5
+event zeek_init() &priority=5
 	{
 	Log::create_stream(LOG, [$columns=ConnBurst::Info, $path="conn_burst"]);
 	}

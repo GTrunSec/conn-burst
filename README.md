@@ -11,8 +11,8 @@ generated and a log is written to a log stream named `conn_burst`.
 Installation
 ------------
 
-	bro-pkg refresh
-	bro-pkg install bro/corelight/conn-burst
+	zkg refresh
+	zkg install bro/corelight/conn-burst
 
 
 Configuration
